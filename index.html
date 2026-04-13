@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftMerch | Official Store</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f4f4f9; color: #333; }
+        header { background-color: #232f3e; color: white; padding: 3rem 1rem; text-align: center; }
+        .container { max-width: 1100px; margin: 2rem auto; padding: 0 20px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+        .product-card { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; transition: transform 0.2s; }
+        .product-card:hover { transform: translateY(-5px); }
+        .product-card h3 { color: #232f3e; font-size: 1.5rem; }
+        .price { font-weight: bold; color: #b12704; font-size: 1.3rem; margin-top: 10px; }
+        footer { text-align: center; padding: 3rem; color: #777; border-top: 1px solid #ddd; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SwiftMerch Company</h1>
+    <p>We deliver high-quality apparel, sleek accessories, and cutting-edge gadgets right to your doorstep.</p>
+</header>
+
+<div class="container">
+    <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <h3>Essential Hoodie</h3>
+            <p>A heavy-weight, 100% cotton hoodie perfect for any season.</p>
+            <p class="price">$55.00</p>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+            <h3>Sleek Travel Mug</h3>
+            <p>Vacuum-insulated stainless steel that keeps drinks hot for 12 hours.</p>
+            <p class="price">$25.00</p>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+            <h3>Minimalist Watch</h3>
+            <p>Genuine leather strap with a scratch-resistant sapphire crystal face.</p>
+            <p class="price">$110.00</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 SwiftMerch Co. All rights reserved.</p>
+    <p><em>Deployed via Jenkins, Docker, and Kubernetes.</em></p>
+</footer>
+
+</body>
+</html>
